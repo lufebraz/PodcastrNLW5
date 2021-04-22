@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 import format from 'date-fns/format';
 
 export function Header() {
-const currentDate = format(new Date(), 'EEE, MMMM d');
+const currentDate = format(new Date(), 'EEEE, MMMM d');
 
   return (
     <header className={styles.headerContainer}>

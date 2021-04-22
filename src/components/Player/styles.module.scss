@@ -83,15 +83,15 @@
     background: transparent;
     border: 0;
     font-size: 0;
+
     transition: filter 0.2s;
-    border-radius: 1.5rem;
 
     &:hover {
-      background:var(--purple-300) ;
-      filter: brightness(1.2);
+      filter: brightness(0.9);
     }
 
     &.playButton {
+      border-radius: 1.5rem;
       width: 4rem;
       height: 4rem;
       background: var(--purple-300);
